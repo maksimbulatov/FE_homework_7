@@ -15,14 +15,11 @@ form{
     height: 486px;
     margin: 200px auto;
     background-color: blue;
-    transition: box-shadow
-    transition-duration: 0.5s;
 }
 
 form:hover{
     outline: none;
-    box-shadow: 2px 2px 5px black;
-    border: 10px #FBC531;
+    border: 2px solid turquoise;
     
 }
 
@@ -45,7 +42,7 @@ input{
 
 input:hover{
     outline: none;
-    border: 10px #FBC531;
+    border: 2px solid turquoise;
 }
 
 label{
@@ -61,4 +58,9 @@ button{
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
+}
+
+button:hover{
+    outline: none;
+    border: 2px solid turquoise;
 }
